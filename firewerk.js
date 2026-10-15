@@ -17,7 +17,7 @@ let rockets = [];
 
 const colors = ["#FF3B3B", "#FF9F1C", "#FFE66D", "#2EC4B6", "#4D96FF", "#B15EFF", "#FF5DA2", "#FFFFFF"];
 
-addEventListener("click", (e) =>{
+addEventListener("click", (e =>{
     rockets.push({
         x: e.clientX,
         y: e.clientY,
