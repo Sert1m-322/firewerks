@@ -22,7 +22,7 @@ addEventListener("click", (e) =>{
         x: e.clientX,
         y: e.clientY,
         skoka: Math.floor(Math.random() * 70) + 50,
-        particles: Math.floor(Math.random() * 300) +50,
+        particles: Math.floor(Math.random() * 150) +50,
     })
     
 })
